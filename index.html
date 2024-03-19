@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hotel Website</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- swiper js cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- header -->
+
+   <header class="header">
+
+      <a href="#" class="logo"> <i class="fas fa-hotel"></i> hotel </a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#room">room</a>
+         <a href="#gallery">gallery</a>
+         <a href="#review">review</a>
+         <a href="#faq">faq</a>
+         <a href="#reservation" class="btn"> book now</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </header>
+
+   <!-- end -->
+
+   <!-- home -->
+
+   <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- availability -->
+
+   <section class="availability">
+
+      <form action="">
+
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" id="" class="input">
+               <option value="1">1 adults</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>children <span>*</span></p>
+            <select name="child" id="" class="input">
+               <option value="1">1 child</option>
+               <option value="2">2 child</option>
+               <option value="3">3 child</option>
+               <option value="4">4 child</option>
+               <option value="5">5 child</option>
+               <option value="6">6 child</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" id="" class="input">
+               <option value="1">1 rooms</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+
+   <!-- about -->
+
+   <section class="about" id="about">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/about.jpg" alt="">
+         </div>
+
+         <div class="content">
+            <h3>about us</h3>.
+            <p>The reason for our success is no secret. It comes down to one single principle that transcends time and geography, religion and culture. It’s the Golden Rule – the simple idea that if you treat people well, the way you would like to be treated, they will do the same</p>
+            <p>The key is to set realistic customer expectations and then not to just meet them, but to exceed them — preferably in unexpected and helpful ways</p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- room -->
+
+   <section class="room" id="room">
+
+      <h1 class="heading">our room</h1>
+
+      <div class="swiper room-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$15.99/night</span>
+                  <img src="images/room-1.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>exclusive room</h3>
+                  <p>place where your dreams meet with reality</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$15.99/night</span>
+                  <img src="images/room-2.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>exclusive room</h3>
+                  <p>place where your dreams meet with reality</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$15.99/night</span>
+                  <img src="images/room-3.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>exclusive room</h3>
+                  <p>place where your dreams meet with reality</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$15.99/night</span>
+                  <img src="images/room-4.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>exclusive room</h3>
+                  <p>place where your dreams meet with reality</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$15.99/night</span>
+                  <img src="images/room-5.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>exclusive room</h3>
+                  <p>place where your dreams meet with reality</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$15.99/night</span>
+                  <img src="images/room-6.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>exclusive room</h3>
+                  <p>place where your dreams meet with reality</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- services -->
+
+   <section class="services">
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/service1.png" alt="">
+            <h3>swimming pool</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service2.png" alt="">
+            <h3>food & drink</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service3.png" alt="">
+            <h3>restaurant</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service4.png" alt="">
+            <h3>fitness</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service5.png" alt="">
+            <h3>beauty spa</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service6.png" alt="">
+            <h3>resort beach</h3>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- gallery -->
+
+   <section class="gallery" id="gallery">
+
+      <h1 class="heading">our gallery</h1>
+
+      <div class="swiper gallery-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery1.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery2.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery3.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery4.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery5.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery6.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- review -->
+
+   <section class="review" id="review">
+
+      <div class="swiper review-slider">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>The food was excellent and so was the service.  I had the mushroom risotto with scallops which was awesome. My wife had a burger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies. The restaurant has a vey nice ambiance and a cozy bar.</p>
+               <div class="user">
+                  <img src="images/pic-1.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Coffee was fresh, the corned beef hash is amazing and homemade, even the toast was good! Oh, and the potato pancakes! Everything we ordered was fresh and delicious. Highly recommend! Definitely coming back.</p>
+               <div class="user">
+                  <img src="images/pic-2.png" alt="">
+                  <div class="user-info">
+                     <h3>jenny</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>I loved the place, location food atmosphere and most importantly the wonderful staff. We are a family of 6 and had breakfast for 5 days in row and honestly i had nothing but good food and great service</p>
+               <div class="user">
+                  <img src="images/pic-3.png" alt="">
+                  <div class="user-info">
+                     <h3>camber</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p> This place is great! Atmosphere is chill and cool but the staff is also really friendly. They know what they’re doing and what they’re talking about, and you can tell making the customers happy is their main priority. Food is pretty good, some italian classics and some twists, and for their prices it’s 100% worth it.</p>
+               <div class="user">
+                  <img src="images/pic-4.png" alt="">
+                  <div class="user-info">
+                     <h3>dency</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p> It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations.</p>
+               <div class="user">
+                  <img src="images/pic-5.png" alt="">
+                  <div class="user-info">
+                     <h3>karthick</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p> Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book. Highly recommended.</p>
+               <div class="user">
+                  <img src="images/pic-6.png" alt="">
+                  <div class="user-info">
+                     <h3>farina</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- faq -->
+
+   <section class="faqs" id="faq">
+
+      <h1 class="heading">frequently asked questions</h1>
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/FAQs.gif" alt="">
+         </div>
+
+         <div class="content">
+
+            <div class="box active">
+               <h3>what are payment methods?</h3>
+               <p>all cards and digital payments are accepted</p>
+            </div>
+
+            <div class="box">
+               <h3>how to check availability?</h3>
+               <p>use the link given above</p>
+            </div>
+
+            <div class="box">
+               <h3>is refund available?</h3>
+               <p>yes, for further information cotact the given contact numbers</p>
+            </div>
+
+            <div class="box">
+               <h3>is there any offers ?</h3>
+               <p>no offers will available at any time</p>
+            </div>
+
+            <div class="box">
+               <h3>is there any limitations to checkin?</h3>
+               <p>no, there is no restrictions</p>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- reservation -->
+
+   <section class="reservation" id="reservation">
+
+      <h1 class="heading">book now</h1>
+
+      <form action="">
+
+         <div class="container">
+
+            <div class="box">
+               <p>name <span>*</span></p>
+               <input type="text" class="input" placeholder="Your Name">
+            </div>
+
+            <div class="box">
+               <p>email <span>*</span></p>
+               <input type="text" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="box">
+               <p>check in <span>*</span></p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>check out <span>*</span></p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>adults <span>*</span></p>
+               <select name="adults" class="input">
+                  <option value="1">1 adults</option>
+                  <option value="2">2 adults</option>
+                  <option value="3">3 adults</option>
+                  <option value="4">4 adults</option>
+                  <option value="5">5 adults</option>
+                  <option value="6">6 adults</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>children <span>*</span></p>
+               <select name="child" class="input">
+                  <option value="1">1 child</option>
+                  <option value="2">2 child</option>
+                  <option value="3">3 child</option>
+                  <option value="4">4 child</option>
+                  <option value="5">5 child</option>
+                  <option value="6">6 child</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>rooms <span>*</span></p>
+               <select name="rooms" class="input">
+                  <option value="1">1 rooms</option>
+                  <option value="2">2 rooms</option>
+                  <option value="3">3 rooms</option>
+                  <option value="4">4 rooms</option>
+                  <option value="5">5 rooms</option>
+                  <option value="6">6 rooms</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>room type <span>*</span></p>
+               <select name="type" class="input">
+                  <option value="1">exclusive rooms</option>
+                  <option value="2">family rooms</option>
+                  <option value="3">daily rooms</option>
+                  <option value="4">panoramic rooms</option>
+               </select>
+            </div>
+   
+         </div>
+
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- footer -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91 93888 93888 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +042-4522-56666</a>
+            <a href="#"> <i class="fas fa-envelope"></i> gurus@gmail.com</a>
+            <a href="#"> <i class="fas fa-map"></i> chennai,covai</a>
+         </div>
+
+         <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> rooms</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> gallery</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reservation</a>
+         </div>
+
+         <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> check availability</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> refund policy</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> food availability</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> resaurt location</a>
+         </div>
+
+      </div>
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-pinterest"></a>
+      </div>
+      
+
+
+   </section>
+
+   <!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
